@@ -39,4 +39,4 @@ const llama = async (prompt, stream = false) => {
     }
 };
 
-module.exports = llama;
+module.exports = {llama};
